@@ -48,7 +48,7 @@ public class EmployeeController {
 		return ResponseEntity.ok(employee);
 	}
 	
-	// update employee rest api
+	// update employee rest api of madhaar
 	
 	@PutMapping("/employees/{id}")
 	public ResponseEntity<Employee> updateEmployee(@PathVariable Long id, @RequestBody Employee employeeDetails){
